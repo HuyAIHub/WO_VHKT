@@ -1,0 +1,42 @@
+2024-03-08 14:43:16.846176: I external/local_tsl/tsl/cuda/cudart_stub.cc:31] Could not find cuda drivers on your machine, GPU will not be used.
+2024-03-08 14:43:17.107461: E external/local_xla/xla/stream_executor/cuda/cuda_dnn.cc:9261] Unable to register cuDNN factory: Attempting to register factory for plugin cuDNN when one has already been registered
+2024-03-08 14:43:17.107516: E external/local_xla/xla/stream_executor/cuda/cuda_fft.cc:607] Unable to register cuFFT factory: Attempting to register factory for plugin cuFFT when one has already been registered
+2024-03-08 14:43:17.161038: E external/local_xla/xla/stream_executor/cuda/cuda_blas.cc:1515] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+2024-03-08 14:43:17.275947: I external/local_tsl/tsl/cuda/cudart_stub.cc:31] Could not find cuda drivers on your machine, GPU will not be used.
+2024-03-08 14:43:17.277017: I tensorflow/core/platform/cpu_feature_guard.cc:182] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2024-03-08 14:43:18.263046: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:38] TF-TRT Warning: Could not find TensorRT
+2024-03-08 14:43:19.601721: I external/local_xla/xla/stream_executor/cuda/cuda_executor.cc:901] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero. See more at https://github.com/torvalds/linux/blob/v6.0/Documentation/ABI/testing/sysfs-bus-pci#L344-L355
+2024-03-08 14:43:19.602127: W tensorflow/core/common_runtime/gpu/gpu_device.cc:2256] Cannot dlopen some GPU libraries. Please make sure the missing libraries mentioned above are installed properly if you would like to use GPU. Follow the guide at https://www.tensorflow.org/install/gpu for how to download and setup the required libraries for your platform.
+Skipping registering GPU devices...
+INFO:     Started server process [10780]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://0.0.0.0:8006 (Press CTRL+C to quit)
+INFO:     127.0.0.1:42956 - "GET / HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:42956 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:46624 - "GET /docs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46624 - "GET /openapi.json HTTP/1.1" 200 OK
+numberrequest 1
+1/1 [==============================] - ETA: 0s1/1 [==============================] - 1s 765ms/step
+1/1 [==============================] - ETA: 0s1/1 [==============================] - 0s 29ms/step
+1/1 [==============================] - ETA: 0s1/1 [==============================] - 0s 24ms/step
+1/1 [==============================] - ETA: 0s1/1 [==============================] - 0s 16ms/step
+1/1 [==============================] - ETA: 0s1/1 [==============================] - 0s 20ms/step
+1/1 [==============================] - ETA: 0s1/1 [==============================] - 1s 536ms/step
+1/1 [==============================] - ETA: 0s1/1 [==============================] - 0s 16ms/step
+1/1 [==============================] - ETA: 0s1/1 [==============================] - 0s 15ms/step
+1/1 [==============================] - ETA: 0s1/1 [==============================] - 0s 15ms/step
+1/1 [==============================] - ETA: 0s1/1 [==============================] - 0s 24ms/step
+1/1 [==============================] - ETA: 0s1/1 [==============================] - 0s 482ms/step
+1/1 [==============================] - ETA: 0s1/1 [==============================] - 0s 17ms/step
+1/1 [==============================] - ETA: 0s1/1 [==============================] - 0s 16ms/step
+1/1 [==============================] - ETA: 0s1/1 [==============================] - 0s 14ms/step
+1/1 [==============================] - ETA: 0s1/1 [==============================] - 0s 15ms/step
+1/1 [==============================] - ETA: 0s1/1 [==============================] - 0s 467ms/step
+1/1 [==============================] - ETA: 0s1/1 [==============================] - 0s 20ms/step
+1/1 [==============================] - ETA: 0s1/1 [==============================] - 0s 22ms/step
+1/1 [==============================] - ETA: 0s1/1 [==============================] - 0s 14ms/step
+1/1 [==============================] - ETA: 0s1/1 [==============================] - 0s 18ms/step
+--------result_predict_done---------
+INFO:     127.0.0.1:46624 - "GET /vhkt_wo_predict HTTP/1.1" 200 OK
